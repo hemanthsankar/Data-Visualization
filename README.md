@@ -1,1 +1,1 @@
-# OS_Hackathon.github.io
+# OS-Hackathon.github.io
