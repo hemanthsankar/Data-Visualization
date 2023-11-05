@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .image {
+            width: 30%; /* Increase the width of your images as needed */
+            margin-right: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .image img {
+            width: 100%;
+            height: auto;
+        }
+        .description {
+            width: 70%; /* Adjust the width of the description area */
+            padding: 20px;
+            text-align: left;
+        }
+        .description h2 {
+            font-size: 18px; /* Adjust the font size of the titles as needed */
+        }
+        .description p {
+            font-size: 14px; /* Adjust the font size of the descriptions as needed */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="h1.png" alt="Image 1">
+        </div>
+        <div class="description">
+            <h2>Age Distribution Histogram</h2>
+            <p>This histogram displays the distribution of client ages in the dataset. It provides insights into the age demographics of the clients. The x-axis represents age, and the y-axis represents the count of clients. The histogram is created with 20 bins to show the distribution more granularly. The presence of a kernel density estimate (KDE) plot helps visualize the probability density of age values. The visualization is set on a white grid background and is color-coded using the "Set2" palette. A title and labels provide context and information. The resulting graph is saved as "graph1.png."</p>
+        </div>
+        <div class="image">
+            <img src="h2.png" alt="Image 2">
+        </div>
+        <div class="description">
+            <h2>Day Distribution Histogram</h2>
+            <p>This histogram illustrates the distribution of client contacts on different days (as indicated by the 'day' column in the dataset). The x-axis represents the days, and the y-axis represents the count of client contacts. The presence of a kernel density estimate (KDE) plot adds a smoothed curve to visualize the probability density of contact days. The visualization is set on a white grid background. However, there's a discrepancy in the title, which mentions "Age Distribution" while the graph is displaying day distribution. To maintain consistency, it's advisable to update the title to "Day Distribution."</p>
+        </div>
+        <div class="image">
+            <img src="h3.png" alt="Image 3">
+        </div>
+        <div class="description">
+            <h2>Education Level Distribution Pie Chart</h2>
+            <p>This pie chart graphically represents the distribution of education levels among clients in the dataset. The chart uses different slices to depict various education levels, and the percentage of clients belonging to each level is displayed on the respective slice. This visualization offers a clear overview of the education demographics within the dataset.</p>
+        </div>
+        <div class="image">
+            <img src="h4.png" alt="Image 4">
+        </div>
+        <div class="description">
+            <h2>Income Distribution Histograms by Education Level</h2>
+            <p>This set of histograms visualizes the income distribution of clients based on their education level. The figure is divided into three subplots, each corresponding to a different education level: 'Secondary Education,' 'Tertiary Education,' and 'Primary Education.'</p>
+        </div>
+        <div class="image">
+            <img src="h5.png" alt="Image 5">
+        </div>
+        <div class="description">
+            <h2>Distribution of Campaign Contact Counts</h2>
+            <p>This histogram chart illustrates the distribution of campaign contact counts, providing valuable insights into the frequency and variation of contacts made during a specific marketing or outreach campaign. Each bar in the histogram represents a range of contact counts, while the height of the bars signifies the number of instances falling within that specific range.</p>
+        </div>
+    </div>
+</body>
+</html>
